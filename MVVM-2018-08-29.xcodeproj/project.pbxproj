@@ -15,6 +15,10 @@
 		D79B99402136773C00DF81C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B993F2136773C00DF81C5 /* main.m */; };
 		D79B994A2136773D00DF81C5 /* MVVM_2018_08_29Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B99492136773D00DF81C5 /* MVVM_2018_08_29Tests.m */; };
 		D79B99552136773D00DF81C5 /* MVVM_2018_08_29UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B99542136773D00DF81C5 /* MVVM_2018_08_29UITests.m */; };
+		D79B99642136776D00DF81C5 /* HSDemoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B99632136776D00DF81C5 /* HSDemoViewModel.m */; };
+		D79B996A213677DE00DF81C5 /* HSDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B9969213677DE00DF81C5 /* HSDemoModel.m */; };
+		D79B996E21367D1000DF81C5 /* HSDemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B996C21367D1000DF81C5 /* HSDemoTableViewCell.m */; };
+		D79B99712136895C00DF81C5 /* HSDemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79B99702136895C00DF81C5 /* HSDemoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		D79B99502136773D00DF81C5 /* MVVM-2018-08-29UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-2018-08-29UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79B99542136773D00DF81C5 /* MVVM_2018_08_29UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_2018_08_29UITests.m; sourceTree = "<group>"; };
 		D79B99562136773D00DF81C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79B99622136776D00DF81C5 /* HSDemoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSDemoViewModel.h; sourceTree = "<group>"; };
+		D79B99632136776D00DF81C5 /* HSDemoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSDemoViewModel.m; sourceTree = "<group>"; };
+		D79B9968213677DE00DF81C5 /* HSDemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSDemoModel.h; sourceTree = "<group>"; };
+		D79B9969213677DE00DF81C5 /* HSDemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSDemoModel.m; sourceTree = "<group>"; };
+		D79B996B21367D1000DF81C5 /* HSDemoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSDemoTableViewCell.h; sourceTree = "<group>"; };
+		D79B996C21367D1000DF81C5 /* HSDemoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSDemoTableViewCell.m; sourceTree = "<group>"; };
+		D79B99702136895C00DF81C5 /* HSDemoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSDemoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				D79B99312136773400DF81C5 /* AppDelegate.m */,
 				D79B99332136773400DF81C5 /* ViewController.h */,
 				D79B99342136773400DF81C5 /* ViewController.m */,
+				D79B996B21367D1000DF81C5 /* HSDemoTableViewCell.h */,
+				D79B996C21367D1000DF81C5 /* HSDemoTableViewCell.m */,
+				D79B99702136895C00DF81C5 /* HSDemoTableViewCell.xib */,
+				D79B99622136776D00DF81C5 /* HSDemoViewModel.h */,
+				D79B99632136776D00DF81C5 /* HSDemoViewModel.m */,
+				D79B9968213677DE00DF81C5 /* HSDemoModel.h */,
+				D79B9969213677DE00DF81C5 /* HSDemoModel.m */,
 				D79B99362136773400DF81C5 /* Main.storyboard */,
 				D79B99392136773C00DF81C5 /* Assets.xcassets */,
 				D79B993B2136773C00DF81C5 /* LaunchScreen.storyboard */,
@@ -238,6 +256,7 @@
 				D79B993D2136773C00DF81C5 /* LaunchScreen.storyboard in Resources */,
 				D79B993A2136773C00DF81C5 /* Assets.xcassets in Resources */,
 				D79B99382136773400DF81C5 /* Main.storyboard in Resources */,
+				D79B99712136895C00DF81C5 /* HSDemoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79B99642136776D00DF81C5 /* HSDemoViewModel.m in Sources */,
+				D79B996E21367D1000DF81C5 /* HSDemoTableViewCell.m in Sources */,
 				D79B99352136773400DF81C5 /* ViewController.m in Sources */,
 				D79B99402136773C00DF81C5 /* main.m in Sources */,
 				D79B99322136773400DF81C5 /* AppDelegate.m in Sources */,
+				D79B996A213677DE00DF81C5 /* HSDemoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
